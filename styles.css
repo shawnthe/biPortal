@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(135deg, indigo 0%, purple 100%);
+}
+
+.form {
+    display: none;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.95);
+}
+
+.form.show {
+    display: block;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, indigo 0%, purple 100%);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, blue 0%, darkviolet 100%);
+    transform: translateY(-1px);
+}
+
+.form-control:focus {
+    border-color: indigo;
+    box-shadow: 0 0 0 0.2rem rgba(102,126,234,0.25);
+}
